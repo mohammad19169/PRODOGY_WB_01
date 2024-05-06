@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000;
+  }
+   
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #navbar ul li a:hover {
+    background-color: #555;
+  }
+  
+  .section {
+    padding: 50px 20px;
+    height: 1000px; 
+    background-image: url(Task1_images/home1.jpg);
+    color: navy;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
